@@ -9,4 +9,59 @@
 
 body {
 	background-color: var(--main-bg-color);
+	color: var(--main-heading-color);
+	font-family: "Inter", sans-serif;
+	font-size: 15px;
+}
+
+img {
+	height: auto;
+	max-width: 100%;
+	opacity: 0.7;
+}
+
+span {
+	color: var(--accent-color);
+}
+
+h1 {
+	font-size: 1.74rem;
+}
+
+#container {
+	background-color: var(--card-bg-color);
+	border-radius: 20px;
+	margin: auto;
+	margin-top: 10%;
+	text-align: center;
+	overflow: hidden;
+	width: 90%;
+}
+
+#image-side {
+	background-color: var(--accent-color);
+	margin-bottom: 20px;
+}
+
+#information-side {
+	margin: auto;
+	margin-bottom: 30px;
+	width: 80%;
+}
+
+#heading-info {
+	color: var(--main-paragraph-color);
+	margin-bottom: 25px;
+}
+
+.small-number-info {
+	font-size: 1.3rem;
+	margin-bottom: 5px;
+}
+
+.small-word-info {
+	color: var(--stat-headings-color);
+	font-size: 0.75rem;
+	margin-top: 0;
+	text-transform: uppercase;
 }
