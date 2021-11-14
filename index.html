@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" href="images/styles.css">
+  <link rel="stylesheet" href="css/styles.css">
   <title>Frontend Mentor | Stats preview card component</title>
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <!-- <style>
@@ -14,20 +14,30 @@
 </head>
 <body>
 <div id="container">
-<div id="image-side">
+  <div id="image-side">
+    <img src="images/image-header-mobile.jpg" alt="meeting-image">
+  </div>
+  <div id="information-side">
+    <h1 id="heading">Get <span id="key-word">insights</span> that help your business grow.</h1>
 
-</div>
-<div id="information-side">
-
-</div>
-  Get insights that help your business grow.
-
-  Discover the benefits of data analytics and make better decisions regarding revenue, customer 
-  experience, and overall efficiency.
-
-  10k+ companies
-  314 templates
-  12m+ queries
+    <p id="heading-info">Discover the benefits of data analytics and make better decisions regarding revenue, customer 
+    experience, and overall efficiency.</p>
+    
+    <div id="small-info-container">
+      <div class="small-info">
+        <p class="small-number-info">10k+</p>
+        <p class="small-word-info">companies</p>
+      </div>
+      <div class="small-info">
+        <p class="small-number-info">314</p>
+        <p class="small-word-info">templates</p>
+      </div>
+      <div class="small-info">
+        <p class="small-number-info">12m+</p>
+        <p class="small-word-info">queries</p>
+      </div>
+    </div>
+  </div>
 </div>
 
   <div class="attribution">
