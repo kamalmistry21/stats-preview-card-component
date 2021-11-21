@@ -15,8 +15,10 @@ body {
 }
 
 img {
-	height: auto;
-	max-width: 100%;
+	background-color: var(--accent-color);
+	display: block;
+	height: 100%;
+	width: 100%;
 	opacity: 0.7;
 }
 
@@ -40,6 +42,7 @@ h1 {
 
 #image-side {
 	background-color: var(--accent-color);
+	display: inline-block;
 	margin-bottom: 20px;
 }
 
@@ -56,6 +59,7 @@ h1 {
 
 .small-number-info {
 	font-size: 1.3rem;
+	font-weight: 700;
 	margin-bottom: 5px;
 }
 
@@ -64,4 +68,54 @@ h1 {
 	font-size: 0.75rem;
 	margin-top: 0;
 	text-transform: uppercase;
+}
+
+.attribution {
+	position: fixed;
+	bottom: 0;
+	font-size: 11px;
+	text-align: center;
+}
+.attribution a {
+	color: hsl(228, 45%, 44%);
+}
+
+@media only screen and (min-width: 1440px) {
+	#container {
+		display: flex;
+		flex-direction: row-reverse;
+		height: 400px;
+		text-align: left;
+		overflow: hidden;
+		width: 80%;
+	}
+
+	#image-side {
+		flex: 1;
+	}
+
+	#information-side {
+		flex: 1;
+		margin: auto;
+	}
+
+	#heading,
+	#heading-info,
+	#small-info-container {
+		margin: 0 auto;
+	}
+
+	#heading {
+		width: 60%;
+	}
+
+	#heading-info {
+		width: 60%;
+	}
+
+	#small-info-container {
+		display: flex;
+		width: 60%;
+		justify-content: space-between;
+	}
 }
