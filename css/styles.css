@@ -37,7 +37,7 @@ h1 {
 	margin-top: 10%;
 	text-align: center;
 	overflow: hidden;
-	width: 90%;
+	width: 330px;
 }
 
 #image-side {
@@ -84,14 +84,15 @@ h1 {
 	#container {
 		display: flex;
 		flex-direction: row-reverse;
-		height: 400px;
+		height: 350px;
 		text-align: left;
 		overflow: hidden;
-		width: 80%;
+		width: 1152px;
 	}
 
 	#image-side {
 		flex: 1;
+		margin: 0;
 	}
 
 	#information-side {
@@ -107,10 +108,12 @@ h1 {
 
 	#heading {
 		width: 60%;
+		margin-bottom: 20px;
 	}
 
 	#heading-info {
 		width: 60%;
+		margin-bottom: 30px;
 	}
 
 	#small-info-container {
